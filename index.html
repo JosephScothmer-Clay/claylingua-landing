@@ -1,57 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clay Language Network</title>
-    <style>
-        body {
-          font-family: Arial, sans-serif;
-          text-align: center;
-          margin: 0;
-          padding: 0;
-          background-color: #f5f5f5;
-        }
-        header {
-          background-color: #333;
-          color: white;
-          padding: 1rem;
-        }
-        main {
-          padding: 2rem;
-        }
-        form {
-          margin-top: 2rem;
-        }
-        input[type="email"] {
-          padding: 0.5rem;
-          width: 250px;
-          max-width: 90%;
-        }
-        button {
-          padding: 0.5rem 1rem;
-          background-color: #333;
-          color: white;
-          border: none;
-          cursor: pointer;
-        }
-        button:hover {
-          background-color: #555;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ClayLingua — Early Access</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/signup.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/kpis.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo.png">
 </head>
 <body>
 <header>
-    <h1>Clay Language Network</h1>
+    <div class="container">
+        <div class="brand">
+            <a href="#"><img src="assets/img/logo-transparent.png" class="logo" alt="ClayLingua logo"></a>
+        </div>
+        <nav class="nav-group" id="nav-group">
+            <a href="#usps">What Sets Us Apart</a>
+            <a href="#why-join">Why Join</a>
+            <a href="#how">How It Works</a>
+            <a href="#proof">Proof</a>
+            <a href="#signup" class="nav-cta">Get Early Access</a>
+        </nav>
+        <button class="hamburger" id="hamburger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
 </header>
-<main>
-    <p>Connecting language learners with vetted tutors worldwide.</p>
 
-    <h2>Join the Waitlist</h2>
-    <form>
-        <input type="email" placeholder="Enter your email" required>
-        <button type="submit">Sign Up</button>
-    </form>
+<main>
+    <!-- Hero -->
+    <section class="container section hero" id="top">
+        <div class="hero-header">
+            <div class="hero-text">
+                <span class="pill">Early Access • Limited Spots • No Payment or Commitment Required</span>
+                <h1>The Language Platform Built for Quality and Fairness</h1>
+                <p class="lead">
+                    Connecting motivated learners with <strong>vetted, professional tutors</strong>—backed by
+                    better platform support and <strong>lower commission fees</strong>.
+                    <strong>Join early</strong> to lock in <strong>launch discounts on lessons</strong> for students and
+                    <strong>even lower commission rates</strong> for tutors—guaranteed for the future.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#signup" class="btn primary">Secure The Best Rates</a>
+                </div>
+            </div>
+
+            <div class="hero-image small-hero-image">
+                <img src="assets/img/3d-illustration.png" alt="ClayLingua illustration showing students and tutors">
+            </div>
+        </div>
+
+        <div class="kpi-wrap">
+            <div class="kpi">
+                <span class="muted">Early Access Goal</span>
+                <strong id="goal">50 students • 25 tutors</strong>
+            </div>
+            <div class="kpi">
+                <span class="muted">Already Joined</span>
+                <strong id="joined"></strong>
+            </div>
+            <div class="kpi">
+                <span class="muted">Progress</span>
+                <div class="track" aria-hidden="true">
+                    <div id="progress-bar" class="bar">
+                    </div>
+                    <span id="progress-label"></span>
+                </div>
+                <small class="muted" id="progress-text"></small>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- USPs -->
+    <section class="container section" id="usps">
+        <h2>What Makes ClayLingua Different</h2>
+
+        <div class="grid cards">
+            <!-- Students -->
+            <article class="card">
+                <h3>For Students</h3>
+                <ul class="usp-list">
+                    <li><strong>Learn from vetted professionals</strong> who meet strict quality and teaching standards.</li>
+                    <li><strong>Follow a tailored learning path</strong> for exams, career goals, or niche languages.</li>
+                    <li><strong>Match with the right specialist</strong> in business, education, or leisure learning.</li>
+                    <li><strong>Save more</strong> with exclusive early-access discounts on lessons.</li>
+                </ul>
+            </article>
+
+            <!-- Tutors -->
+            <article class="card">
+                <h3>For Tutors</h3>
+                <ul class="usp-list">
+                    <li><strong>Keep more of your earnings</strong> with lower commission rates than major platforms.</li>
+                    <li><strong>Protect your value</strong> with fair, tiered pricing that avoids undercutting prices and rewards skill and experience.</li>
+                    <li><strong>Teach without headaches</strong> with responsive support, clear SLAs, and quick issue resolution.</li>
+                    <li><strong>Rely on fair policies</strong> with enforceable, balanced cancellation terms for both sides.</li>
+                    <li><strong>Boost your earnings further</strong> by locking in even lower commission rates during early access.</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- Value props -->
+    <section class="container section" id="why-join">
+        <h2>Why Join Early</h2>
+        <div class="grid cards">
+
+            <article class="card">
+                <h3>Students</h3>
+                <p><strong>Be first in line</strong> for top-rated, vetted tutors.
+                    <strong>Lock in launch-only lesson prices</strong> and start your learning journey with confidence.</p>
+            </article>
+
+            <article class="card">
+                <h3>Tutors</h3>
+                <p><strong>Secure lower commission rates for life</strong>, gain early visibility with motivated learners,
+                    and help shape a platform designed to protect your value.</p>
+            </article>
+
+            <article class="card">
+                <h3>Quality & Trust</h3>
+                <p><strong>Join a curated network</strong> with transparent tutor profiles, enforceable policies,
+                    and measurable results you can rely on.</p>
+            </article>
+
+            <article class="card">
+                <h3>Built in Public</h3>
+                <p><strong>See behind the scenes</strong> as we share our progress and act on your feedback
+                    to create a platform that truly works for you.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="container section" id="how">
+        <h2>How Early Access Works</h2>
+        <ol class="grid steps">
+            <li class="card"><strong>Choose your role</strong> — Select <em>Student</em> or <em>Tutor</em> so we can tailor your perks.</li>
+            <li class="card"><strong>Sign up in seconds</strong> — Just your email. No payment, no commitment. We’ll only contact you with relevant updates about launch and your perks.</li>
+            <li class="card"><strong>Secure your rewards</strong> — Students lock in launch-only discounts. Tutors lock in reduced commission rates for life.</li>
+            <li class="card"><strong>Get early access</strong> — Be first to connect, start learning or teaching, and help shape the platform before public launch.</li>
+        </ol>
+    </section>
+
+    <!-- Social proof -->
+    <section class="container section" id="proof">
+        <h2>Our Commitment to Quality & Fairness</h2>
+        <div class="grid cards">
+            <div class="card">
+                <strong>Founder-Led Vision</strong>
+                <p>Hi, I’m Joseph. I’m building ClayLingua to give tutors a fairer, more supportive place to teach — with lower fees, clear policies, and real platform support.</p>
+                <p>For students, that means learning in a safe environment with professional, vetted teachers. Every decision is guided by fairness, quality, and the community we serve.</p>
+            </div>
+            <div class="card">
+                <strong>Vetted Professionals</strong>
+                <p>All tutors are screened for verified qualifications and proven experience before joining the platform.</p>
+            </div>
+            <div class="card">
+                <strong>Privacy, Safety & Transparency</strong>
+                <p>Clear policies, no hidden tricks, and your data always stays yours — plus built-in safeguarding features and easy reporting for both students and tutors.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup -->
+    <section id="signup" class="section">
+        <div class="container signup-container">
+            <h2>Join the early list</h2>
+            <p class="muted">Select your role and enter your email to secure your perks.</p>
+
+            <form id="early-access-form" class="signup-form form-card" method="POST" action="#">
+                <!-- Role selection -->
+                <fieldset class="field">
+                    <legend class="label">I’m signing up as</legend>
+                    <div class="segmented" role="radiogroup" aria-label="Signup role">
+                        <input type="radio" id="role-student" name="role" value="student" required>
+                        <label for="role-student" class="segmented-btn">Student</label>
+
+                        <input type="radio" id="role-tutor" name="role" value="tutor">
+                        <label for="role-tutor" class="segmented-btn">Tutor</label>
+                    </div>
+                </fieldset>
+
+                <div class="field">
+                    <label for="email" class="label">Email</label>
+                    <input type="email" id="email" name="email" class="input" placeholder="you@example.com" required aria-describedby="email-hint">
+                    <small id="email-hint" class="hint muted">We’ll only contact you about launch and your perks.</small>
+                </div>
+
+                <button type="submit" class="btn primary block" data-loading-text="Signing up…">Sign Up</button>
+                <small class="muted microcopy">No spam. Unsubscribe anytime.</small>
+            </form>
+        </div>
+    </section>
 </main>
+
+<!-- Footer -->
+<footer class="container site-footer">
+    <div>© 2025 ClayLingua</div>
+    <div class="muted">
+        I’m building ClayLingua with your input.
+        Please email me anytime at <a href="mailto:hello@example.com"><strong>hello@example.com</strong></a> for questions or feedback.
+    </div>
+</footer>
+
 </body>
 </html>
