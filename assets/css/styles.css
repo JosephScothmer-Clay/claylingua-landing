@@ -34,7 +34,7 @@ html, body { height: 100%; }
 html { scroll-behavior: smooth; scroll-padding-top: 70px; }
 
 body {
-  margin: 0;
+  margin: 8px;
   padding-top: 70px;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
   line-height: 1.55;
@@ -265,42 +265,163 @@ header nav a.nav-cta::after { display: none; }
 
 /* Mobile stack for hero */
 @media (max-width: 768px) {
+  .container { padding-inline: 5px; }
   .hero-header { flex-direction: column; text-align: center; }
-  .hero-header .hero-text { order: 2; }
-  .hero-header .small-hero-image { order: 1; margin-bottom: 1rem; }
+  .hero-header .hero-text { order: 1; }
+  .hero-header .small-hero-image {
+    order: 2;
+    margin-top: 0.25rem; /* tighten top gap */
+    margin-bottom: 0.25rem; /* tighten bottom gap */
+  }
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text h1,
+.hero-text .lead,
+.hero-text .hero-ctas {
+  margin: 0;
+}
+
+.hero-text h1 {
+  margin-top: 0.5rem; /* space after the pill */
+}
+
+.hero-text h1 + .lead,
+.hero-text .lead + .hero-ctas {
+  margin-top: 2rem; /* consistent gap */
+}
+  .hero-header{
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem; /* small space between all children */
+  }
+  .hero-header .hero-text {
+      flex: 0 1 auto; /* grow=0, shrink=1, basis=auto */
+      height: auto;   /* collapse to content height */
+  }
+
+  .hero-ctas {
+    margin-bottom: 0; /* no extra space below CTA */
+  }
+
+  .hero-header .small-hero-image {
+    flex: 0 0 auto;   /* No minimum size */
+    margin-top: 2rem;
+    margin-bottom: 0.25rem;
+  }
+
+  /* Reduce hero bottom padding so KPI comes closer */
+  .hero {
+    padding-bottom: 1rem;
+  }
+
+  header { height: 56px; padding: 8px 0; }
+  body { padding-top: 56px; }
+
+  .brand .logo {
+    height: 100px; /* keeps presence while not dominating */
+  }
+
+    /* Hero spacing + typography */
+  .hero { padding-top: 20px; }
+  h1 { margin: 8px 0 6px; font-size: clamp(22px, 6vw, 30px); }
+    .lead {
+      font-size: 15px;
+      line-height: 1.45;
+      margin: 6px 0 10px;
+    }
+
+  /* CTA size */
+  .hero-ctas { margin-top: 8px; gap: 8px; justify-content: center;}
+  .btn.primary { padding: 10px 14px; border-radius: 10px; }
+
+    .hero-ctas small {
+      flex-basis: 100%;
+      order: 2;
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 1.2;
+      white-space: nowrap;            /* stay on one line */
+      overflow: hidden;
+      text-overflow: ellipsis;        /* if very long, ellipsize */
+      text-align: center;
+    }
+
+      .pill {
+        display: inline-block;
+        font-size: 9px;
+        padding: 5px 10px;
+        border-width: 1px;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
 }
 
 /* =========================================================
    KPI / Progress
    ========================================================= */
-.kpi-wrap { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 24px; }
+.kpi-wrap {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+/* Change from center text to horizontal layout */
 .kpi {
   flex: 1 1 200px;
+  display: flex;
+  align-items: center;
+  gap: 12px; /* space between icon and text */
   background: #fff;
   border: 1px solid #eee;
   border-radius: var(--radius);
   padding: 16px;
-  text-align: center;
   box-shadow: var(--shadow-sm);
+  text-align: left; /* align text properly */
 }
-.kpi strong {
-  display: block;
-  font-size: 18px;
-  margin-top: 4px;
+
+.kpi-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--color-primary);
 }
+
+.kpi-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.kpi-text strong {
+  font-size: 18px;
+  color: var(--color-primary);
+}
+
 .track {
+  width: 100%;
   height: 8px;
   background: #eee;
   border-radius: 999px;
   margin: 8px 0;
   overflow: hidden;
 }
-.bar { height: 100%; background: var(--color-success); }
 
-  .track {
-    position: relative;
-  }
+.bar {
+  height: 100%;
+  background: var(--color-success);
+}
+
+.track {
+  position: relative;
+}
 
 /* =========================================================
    Cards & Grids
@@ -331,12 +452,239 @@ header nav a.nav-cta::after { display: none; }
   color: var(--color-primary);
 }
 
+.usp-card {
+  padding-top: 24px;
+  position: relative;
+}
+
+.usp-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.usp-card .usp-icon {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.usp-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.usp-icon.student {
+  background: rgba(41, 124, 255, 0.08); /* Accent blue tint */
+  color: var(--color-accent);
+}
+
+.usp-icon.tutor {
+  background: rgba(245, 166, 35, 0.1); /* Amber tint */
+  color: var(--color-important);
+}
+
+.usp-list {
+  list-style: none; /* remove default bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.usp-list li {
+  position: relative;
+  padding-left: 28px; /* space for icon */
+  margin-bottom: 10px;
+}
+
+.usp-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+
+.usp-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-important);
+}
+
+.usp-list-student li::before {
+  background-color: var(--color-accent);
+}
+
+.usp-list-tutor li::before {
+  background-color: var(--color-important);
+}
+
+#usps h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  position: relative;
+  padding-bottom: 8px;
+}
+
+#usps h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 4px;
+  background: var(--color-accent);
+  border-radius: 2px;
+}
+
+.card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(245,166,35,0.1); /* soft amber */
+  color: var(--color-important);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.card-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+  display: block; /* removes any inline gap */
+}
+
+#why-join h3 {
+  margin-top: 0;
+}
+
+#why-join p {
+  margin: 0;
+}
+
+#why-join h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  position: relative;
+  padding-bottom: 8px;
+}
+
+#why-join h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 4px;
+  background: var(--color-important);
+  border-radius: 2px;
+}
+
+/* Style How Early Access Works heading */
+#how h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  position: relative;
+  padding-bottom: 8px;
+}
+
+#how h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 4px;
+  background: var(--color-accent);
+  border-radius: 2px;
+}
+
+
+/* Step list with styled numbers */
+#how ol {
+  counter-reset: step-counter;
+  list-style: none;
+  padding: 0;
+}
+
+#how ol li {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 50px; /* room for number badge */
+}
+
+#how ol li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Section heading */
+#proof h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  position: relative;
+  padding-bottom: 8px;
+}
+
+#proof h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 4px;
+  background: var(--color-important);
+  border-radius: 2px;
+}
+
+
 /* =========================================================
    Signup / Forms
    ========================================================= */
 .signup-container { max-width: 480px; margin: 0 auto; text-align: center; }
 .signup-container h2 { margin-bottom: 6px; }
 .signup-container p { margin-bottom: 20px; }
+
+#signup h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: inline-block; /* so underline matches text width */
+}
+
+#signup h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -6px;
+  width: 60px;
+  height: 4px;
+  background: var(--color-important);
+  border-radius: 2px;
+}
 
 /* Role toggle (legacy radios styled as buttons) */
 .role-buttons { display: flex; gap: 8px; margin-bottom: 20px; }
