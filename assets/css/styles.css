@@ -868,6 +868,11 @@ header nav a.nav-cta::after {
   text-align: center;
 }
 
+#thankyou-message {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .signup-container h2 {
   margin-bottom: 6px;
 }
