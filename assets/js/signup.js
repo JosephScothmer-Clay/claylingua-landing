@@ -53,4 +53,10 @@ document.addEventListener("DOMContentLoaded", () => {
                   }
                 });
               })();
+  document.getElementById('early-access-form').addEventListener('submit', function() {
+    gtag('event', 'signup', {
+      'event_category': 'engagement',
+      'event_label': 'Early Access Form'
+    });
+  });
 });
