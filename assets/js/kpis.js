@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const targetTutors = 25;
 
   // Current signups
-  const currentStudents = 38;
-  const currentTutors = 18;
+  const currentStudents = 1;
+  const currentTutors = 0;
 
   // Calculations
   const totalTarget = targetStudents + targetTutors;

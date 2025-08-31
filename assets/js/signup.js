@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     await fetch(form.action, {
                       method: 'POST',
                       body: fd,
-                      mode: 'no-cors' // prevents CORS errors; we can't read the response, but the submission is sent
+                      mode: 'no-cors'
                     });
 
                     wrap.style.display = 'none';
