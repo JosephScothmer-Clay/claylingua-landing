@@ -1135,6 +1135,12 @@ input[type="radio"]:checked + .segmented-btn {
   color: var(--color-primary);
 }
 
+#comparison h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  position: relative;
+  padding-bottom: 8px;
+}
+
 #comparison h2::after {
   content: '';
   position: absolute;
