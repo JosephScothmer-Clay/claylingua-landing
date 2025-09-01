@@ -1246,3 +1246,6 @@ input[type="radio"]:checked + .segmented-btn {
 /* correct SVG paths (CSS is in assets/css/, so go up one level) */
 .lang-select[data-flag="en"]::before { background-image:url("../img/flags/en.svg"); background-color:transparent; background-size:cover; background-repeat:no-repeat; }
 .lang-select[data-flag="th"]::before { background-image:url("../img/flags/th.svg"); background-color:transparent; background-size:cover; background-repeat:no-repeat; }
+.lang-select[data-flag="de"]::before { background-image:url("../img/flags/de.svg"); background-color:transparent; background-size:cover; background-repeat:no-repeat; }
+.lang-select[data-flag="es"]::before { background-image:url("../img/flags/es.svg"); background-color:transparent; background-size:cover; background-repeat:no-repeat; }
+.lang-select[data-flag="fr"]::before { background-image:url("../img/flags/fr.svg"); background-color:transparent; background-size:cover; background-repeat:no-repeat; }

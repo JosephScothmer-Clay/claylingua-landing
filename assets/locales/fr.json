@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "ClayLingua — Accès anticipé"
+  },
+  "nav": {
+    "what_sets_us_apart": "Avantages",
+    "keep_more": "Gains",
+    "why_join": "Rejoindre",
+    "how_it_works": "Aperçu",
+    "proof": "Preuves",
+    "get_early_access": "Accès",
+    "language": "Langue"
+  },
+  "hero": {
+    "badge": "Accès anticipé • Places limitées • Aucun paiement ni engagement requis",
+    "heading": "La plateforme de langues conçue pour la qualité et l’équité",
+    "subheading": "Nous connectons des apprenants motivés avec des <strong>tuteurs professionnels vérifiés</strong>, soutenus par une meilleure assistance et des <strong>frais réduits</strong>. <strong>Rejoignez tôt</strong> pour bénéficier de <strong>réductions de lancement</strong> et de <strong>commissions encore plus basses</strong> pour les tuteurs.",
+    "cta": "Obtenez les meilleurs tarifs"
+  },
+  "kpi": {
+    "goal_label": "Objectif accès anticipé",
+    "goal_value": "50 étudiants • 25 tuteurs",
+    "joined_label": "Déjà inscrits",
+    "progress_label": "Progrès",
+    "joined_text": "{joined} inscrits ({remaining} places restantes)",
+    "progress_text": "{percent}% de l’objectif atteint"
+  },
+  "usps": {
+    "heading": "Pourquoi ClayLingua est meilleur",
+    "students": {
+      "title": "Pour les étudiants",
+      "point1": "<strong>Apprenez auprès de professionnels vérifiés</strong> qui respectent des standards stricts.",
+      "point2": "<strong>Choisissez votre parcours :</strong> préparation aux examens, certificats et plus, <strong>ou</strong> apprentissage personnalisé selon l’expertise du tuteur.",
+      "point3": "<strong>Trouvez le bon spécialiste</strong> en affaires, éducation ou apprentissage de loisir.",
+      "point4": "<strong>Économisez plus</strong> avec des réductions exclusives d’accès anticipé."
+    },
+    "tutors": {
+      "title": "Pour les tuteurs",
+      "point1": "<strong>Gardez davantage de vos revenus</strong> grâce à des commissions bien plus basses que celles des grandes plateformes (22–33% ou plus).",
+      "point2": "<strong>Augmentez encore vos gains</strong> en bloquant une commission de 12% à vie en vous inscrivant tôt.",
+      "point3": "<strong>Enseignez sans tracas</strong> grâce à un support réactif, des SLA clairs et une résolution rapide des problèmes.",
+      "point4": "<strong>Fiez-vous à des politiques équitables</strong> avec des conditions d’annulation équilibrées et applicables pour les deux parties."
+    }
+  },
+  "comparison": {
+    "heading": "Combien vous conservez en plus",
+    "subheading": "Découvrez comment ClayLingua se compare aux autres plateformes concernant vos revenus par leçon.",
+    "table": {
+      "platform": "Plateforme",
+      "student_pays": "L’étudiant paie",
+      "cut": "Commission de la plateforme",
+      "keeps": "Le tuteur conserve"
+    },
+    "rows": {
+      "italki": {
+        "name": "italki",
+        "student_pays": "$20",
+        "cut": "21% + 2% frais de paiement",
+        "keeps": "~$15.40"
+      },
+      "preply": {
+        "name": "Preply",
+        "student_pays": "$20",
+        "cut": "33% pour les nouveaux tuteurs",
+        "keeps": "~$13.40"
+      },
+      "claylingua": {
+        "name": "ClayLingua",
+        "student_pays": "$20",
+        "cut": "12% fixe (tout inclus)",
+        "keeps": "$17.60"
+      }
+    },
+    "note": "<em>Avec ClayLingua, vous conservez plus de chaque leçon — sans frais cachés.</em>"
+  },
+  "why": {
+    "heading": "Pourquoi rejoindre tôt",
+    "students": {
+      "title": "Étudiants",
+      "text": "<strong>Soyez les premiers</strong> à accéder à des tuteurs qualifiés et vérifiés. <strong>Profitez de prix de lancement</strong> et apprenez en toute confiance."
+    },
+    "tutors": {
+      "title": "Tuteurs",
+      "text": "<strong>Sécurisez des commissions plus basses à vie</strong>, gagnez en visibilité dès le début et contribuez à façonner une plateforme équitable."
+    },
+    "quality": {
+      "title": "Qualité & Confiance",
+      "text": "<strong>Rejoignez un réseau sélectionné</strong> avec des profils transparents, des politiques claires et des résultats mesurables."
+    },
+    "public": {
+      "title": "Construit en public",
+      "text": "<strong>Découvrez les coulisses</strong> alors que nous partageons nos progrès et agissons selon vos retours."
+    }
+  },
+  "how": {
+    "heading": "Comment fonctionne l’accès anticipé",
+    "step1": "<strong>Choisissez votre rôle</strong> — Étudiant ou Tuteur pour adapter vos avantages.",
+    "step2": "<strong>Inscrivez-vous en quelques secondes</strong> — seulement votre email. Aucun paiement, aucun engagement.",
+    "step3": "<strong>Sécurisez vos avantages</strong> — Réductions de lancement pour les étudiants, commissions réduites à vie pour les tuteurs.",
+    "step4": "<strong>Obtenez un accès anticipé</strong> — Soyez parmi les premiers à apprendre ou enseigner et aidez à façonner la plateforme."
+  },
+  "proof": {
+    "heading": "Notre engagement pour la qualité et l’équité",
+    "founder": {
+      "title": "Vision dirigée par le fondateur",
+      "text1": "Bonjour, je suis Joseph. Je construis ClayLingua pour offrir aux tuteurs un environnement plus juste et plus soutenu.",
+      "text2": "Pour les étudiants, cela signifie apprendre dans un cadre sûr avec des enseignants professionnels et vérifiés."
+    },
+    "vetted": {
+      "title": "Professionnels vérifiés",
+      "text": "Tous les tuteurs sont examinés pour leurs qualifications et leur expérience avant de rejoindre la plateforme."
+    },
+    "privacy": {
+      "title": "Confidentialité, sécurité & transparence",
+      "text": "Politiques claires, aucune astuce cachée et vos données vous appartiennent toujours — avec des fonctions de sécurité supplémentaires."
+    }
+  },
+  "signup": {
+    "heading": "Rejoignez la liste anticipée",
+    "subheading": "Sélectionnez votre rôle et entrez votre email pour sécuriser vos avantages.",
+    "role": {
+      "label": "Je m’inscris en tant que",
+      "student": "Étudiant",
+      "tutor": "Tuteur"
+    },
+    "email": {
+      "label": "Email",
+      "hint": "Nous ne vous contacterons que pour le lancement et vos avantages."
+    },
+    "submit": "S’inscrire",
+    "privacy": "Pas de spam. Désinscription possible à tout moment.",
+    "error": "<strong>Une erreur est survenue.</strong> Veuillez réessayer ou écrire à <a href=\"mailto:joseph@claylingua.com\">joseph@claylingua.com</a>.",
+    "thankyou": {
+      "title": "<strong>Merci pour votre inscription !</strong>",
+      "text": "Nous vous enverrons un email lors du lancement."
+    }
+  },
+  "footer": {
+    "text": "Je construis ClayLingua avec votre contribution. Écrivez-moi à <a href=\"mailto:joseph@claylingua.com\"><strong>joseph@claylingua.com</strong></a> pour toute question ou suggestion."
+  }
+}
