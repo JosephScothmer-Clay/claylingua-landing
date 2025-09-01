@@ -1151,3 +1151,98 @@ input[type="radio"]:checked + .segmented-btn {
   background: var(--color-accent);
   border-radius: 2px;
 }
+
+#lang-switch {
+  border: none;
+  background: transparent;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151; /* gray-700 */
+  cursor: pointer;
+}
+
+/* Visually hidden but accessible label */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Container to align flag + select */
+.lang-select {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the select */
+#lang-switch {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 0.4rem 2rem 0.4rem 2rem; /* leave space for flag */
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+
+  background-image: url("data:image/svg+xml;utf8,<svg fill='none' stroke='%236b7280' stroke-width='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M19 9l-7 7-7-7'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+}
+
+/* hide label but keep accessible */
+.sr-only {
+  position: absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+
+/* wrapper must exist */
+.lang-select {
+  position: relative;
+  display: inline-block;
+}
+
+/* style the select (optional) */
+#lang-switch {
+  appearance:none; -webkit-appearance:none; -moz-appearance:none;
+  background:#fff;
+  border:1px solid #d1d5db;
+  border-radius:8px;
+  padding:6px 28px 6px 32px; /* left room for flag */
+  font-size:0.9rem; font-weight:500; color:#374151; cursor:pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='none' stroke='%236b7280' stroke-width='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M19 9l-7 7-7-7'/></svg>");
+  background-repeat:no-repeat;
+  background-position:right 8px center;
+  background-size:16px;
+}
+
+.lang-select::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 21px;   /* a bit wider */
+  height: 14px;  /* standard flag ratio 3:2 */
+  background-size: contain;   /* keep full flag visible */
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+/* correct SVG paths (CSS is in assets/css/, so go up one level) */
+.lang-select[data-flag="en"]::before { background-image:url("../img/flags/en.svg"); background-color:transparent; background-size:cover; background-repeat:no-repeat; }
+.lang-select[data-flag="th"]::before { background-image:url("../img/flags/th.svg"); background-color:transparent; background-size:cover; background-repeat:no-repeat; }
