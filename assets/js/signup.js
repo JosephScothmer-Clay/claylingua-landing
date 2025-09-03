@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
         form.reset();
 
         gtag('event', 'signup', {
-          debug_mode: true,
           role: role,
           form_type: 'early_access'
         });
