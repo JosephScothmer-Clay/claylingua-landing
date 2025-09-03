@@ -14,7 +14,7 @@
   "hero": {
     "badge": "Früher Zugang • Keine Zahlung oder Verpflichtung erforderlich",
     "heading": "Ein fairerer Marktplatz für Sprachlehrer:innen.",
-    "subheading": "Lehrkräfte: Hört auf, ein Drittel eures Einkommens zu verlieren. Meldet euch früh an für nur 12% fixe Gebühren. Schüler:innen: kein Rätselraten mehr. Jede Lehrkraft bei ClayLingua ist geprüft und qualifiziert. Früh anmelden und 20 % Rabatt auf die ersten 10 Stunden sichern.",
+    "subheading": "Lehrkräfte: Hört auf, ein Drittel eures Einkommens zu verlieren. Meldet euch früh an für nur 12% fixe Gebühren. Schüler:innen: kein Rätselraten mehr. Jede Lehrkraft bei ClayLingua ist geprüft und qualifiziert. Früh anmelden und 20% Rabatt auf die ersten 10 Stunden sichern.",
     "cta": "Früh beitreten"
   },
   "kpi": {
@@ -29,14 +29,14 @@
     "heading": "Warum ClayLingua besser ist",
     "students": {
       "title": "Für Schüler:innen",
-      "point1": "<strong>20 % Rabatt auf deine ersten 10 Stunden</strong> und früher Zugang zu Lehrkräften vor dem öffentlichen Start.",
+      "point1": "<strong>20% Rabatt auf deine ersten 10 Stunden</strong> und früher Zugang zu Lehrkräften vor dem öffentlichen Start.",
       "point2": "<strong>Wähle deinen Lernpfad</strong> – geprüfte Prüfungsvorbereitung, karriereorientierte Kurse oder flexible Stunden, die auf deine Ziele zugeschnitten sind.",
       "point3": "<strong>Finde die passende Lehrkraft</strong> – alle sind nach Spezialisierungen gekennzeichnet, von Prüfungsvorbereitung und Karriere-Training bis hin zu Freizeitlernen.",
       "point4": "<strong>Verlässliche Qualität</strong> – jede ClayLingua-Lehrkraft wird auf Qualifikationen und Lehrerfahrung geprüft, bevor sie unterrichten darf."
     },
     "tutors": {
       "title": "Für Lehrkräfte",
-      "point1": "<strong>Früh anmelden</strong> und eine <strong>12 %</strong> Provision auf Lebenszeit sichern – mit Abstand die niedrigste in der Branche.",
+      "point1": "<strong>Früh anmelden</strong> und eine <strong>12%</strong> Provision auf Lebenszeit sichern – mit Abstand die niedrigste in der Branche.",
       "point2": "<strong>Immer geringere Gebühren:</strong> auch nach dem Start bleiben die Provisionen von ClayLingua deutlich unter denen anderer Plattformen.",
       "point3": "<strong>Schnelle, zuverlässige Unterstützung</strong> – wir reagieren sofort und lösen Probleme schnell, damit du dich aufs Unterrichten konzentrieren kannst.",
       "point4": "<strong>Faire Stornierungsregeln</strong> – anders als bei anderen Plattformen schützen unsere deine Zeit und respektieren die Schüler:innen gleichermaßen."
@@ -55,33 +55,33 @@
       "italki": {
         "name": "italki",
         "student_pays": "$20",
-        "cut": "21 % + 2 % Zahlungsgebühr",
+        "cut": "21% + 2% Zahlungsgebühr",
         "keeps": "~$15.40"
       },
       "preply": {
         "name": "Preply",
         "student_pays": "$20",
-        "cut": "33 % für neue Lehrkräfte",
+        "cut": "33% für neue Lehrkräfte",
         "keeps": "~$13.40"
       },
       "claylingua": {
         "name": "ClayLingua",
         "student_pays": "$20",
-        "cut": "12 % fix (alles inklusive)",
+        "cut": "12% fix (alles inklusive)",
         "keeps": "$17.60"
       }
     },
-    "note": "<em>Ein Wechsel von anderen Plattformen zu ClayLingua bedeutet 14–31 % mehr Einkommen bei gleicher Arbeit.</em>"
+    "note": "<em>Ein Wechsel von anderen Plattformen zu ClayLingua bedeutet 14–31% mehr Einkommen bei gleicher Arbeit.</em>"
   },
   "why": {
     "heading": "Warum früh beitreten?",
     "students": {
       "title": "Schüler:innen",
-      "text": "<strong>Sichere dir 20 % Rabatt auf deine ersten 10 Stunden</strong> und erhalte bevorzugten Zugang zu geprüften Lehrkräften vor dem öffentlichen Start."
+      "text": "<strong>Sichere dir 20% Rabatt auf deine ersten 10 Stunden</strong> und erhalte bevorzugten Zugang zu geprüften Lehrkräften vor dem öffentlichen Start."
     },
     "tutors": {
       "title": "Lehrkräfte",
-      "text": "<strong>Sichere dir 12 % Provision auf Lebenszeit</strong>, erhalte frühe Sichtbarkeit und hilf mit, eine Plattform zu gestalten, die deinen Wert schützt."
+      "text": "<strong>Sichere dir 12% Provision auf Lebenszeit</strong>, erhalte frühe Sichtbarkeit und hilf mit, eine Plattform zu gestalten, die deinen Wert schützt."
     },
     "quality": {
       "title": "Qualität & Vertrauen",

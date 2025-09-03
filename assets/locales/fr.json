@@ -14,7 +14,7 @@
   "hero": {
     "badge": "Accès anticipé • Aucun paiement ni engagement requis",
     "heading": "Un marché plus équitable pour les professeurs de langues.",
-    "subheading": "Professeurs : arrêtez de perdre un tiers de vos revenus. Rejoignez tôt pour seulement 12 % de frais fixes. Étudiants : plus d’incertitudes. Chaque professeur sur ClayLingua est un professionnel qualifié et vérifié. Rejoignez tôt et bénéficiez de 20 % de réduction sur vos 10 premières leçons.",
+    "subheading": "Professeurs : arrêtez de perdre un tiers de vos revenus. Rejoignez tôt pour seulement 12% de frais fixes. Étudiants : plus d’incertitudes. Chaque professeur sur ClayLingua est un professionnel qualifié et vérifié. Rejoignez tôt et bénéficiez de 20% de réduction sur vos 10 premières leçons.",
     "cta": "Rejoindre dès maintenant"
   },
   "kpi": {
@@ -29,14 +29,14 @@
     "heading": "Pourquoi ClayLingua est meilleur",
     "students": {
       "title": "Pour les étudiants",
-      "point1": "<strong>Économisez 20 % sur vos 10 premières leçons</strong> et accédez en avant-première aux professeurs avant le lancement public.",
+      "point1": "<strong>Économisez 20% sur vos 10 premières leçons</strong> et accédez en avant-première aux professeurs avant le lancement public.",
       "point2": "<strong>Choisissez un parcours d’apprentissage</strong> pour une préparation certifiée aux examens, des cours axés sur la carrière ou des leçons flexibles conçues autour de vos objectifs.",
       "point3": "<strong>Trouvez le bon professeur</strong> car chaque enseignant est identifié par ses spécialités — préparation aux examens, formation professionnelle ou apprentissage de loisir.",
       "point4": "<strong>Ayez confiance en votre professeur</strong> puisque chaque enseignant de ClayLingua est vérifié pour ses qualifications et son expérience avant d’enseigner."
     },
     "tutors": {
       "title": "Pour les professeurs",
-      "point1": "<strong>Inscrivez-vous tôt</strong> et verrouillez un taux de commission de <strong>12 %</strong> à vie, le plus bas du secteur.",
+      "point1": "<strong>Inscrivez-vous tôt</strong> et verrouillez un taux de commission de <strong>12%</strong> à vie, le plus bas du secteur.",
       "point2": "<strong>Toujours des frais plus bas :</strong> même après le lancement, la commission de ClayLingua reste bien inférieure aux autres plateformes.",
       "point3": "<strong>Bénéficiez d’un support rapide et fiable</strong> — nous répondons et résolvons les problèmes rapidement afin que vous puissiez vous concentrer sur l’enseignement.",
       "point4": "<strong>Politiques d’annulation équitables</strong> — contrairement aux autres plateformes, les nôtres protègent votre temps tout en respectant les étudiants."
@@ -55,33 +55,33 @@
       "italki": {
         "name": "italki",
         "student_pays": "20 $",
-        "cut": "21 % + 2 % frais de paiement",
+        "cut": "21% + 2% frais de paiement",
         "keeps": "~15,40 $"
       },
       "preply": {
         "name": "Preply",
         "student_pays": "20 $",
-        "cut": "33 % pour les nouveaux professeurs",
+        "cut": "33% pour les nouveaux professeurs",
         "keeps": "~13,40 $"
       },
       "claylingua": {
         "name": "ClayLingua",
         "student_pays": "20 $",
-        "cut": "12 % fixe (tout compris)",
+        "cut": "12% fixe (tout compris)",
         "keeps": "17,60 $"
       }
     },
-    "note": "<em>Passer d’autres plateformes à ClayLingua signifie 14–31 % de revenus en plus pour le même travail.</em>"
+    "note": "<em>Passer d’autres plateformes à ClayLingua signifie 14–31% de revenus en plus pour le même travail.</em>"
   },
   "why": {
     "heading": "Pourquoi rejoindre tôt",
     "students": {
       "title": "Étudiants",
-      "text": "<strong>Économisez 20 % sur vos 10 premières leçons</strong> et accédez en priorité aux professeurs vérifiés avant le lancement public."
+      "text": "<strong>Économisez 20% sur vos 10 premières leçons</strong> et accédez en priorité aux professeurs vérifiés avant le lancement public."
     },
     "tutors": {
       "title": "Professeurs",
-      "text": "<strong>Verrouillez des commissions à 12 % à vie</strong>, gagnez en visibilité anticipée et contribuez à façonner une plateforme qui valorise votre travail."
+      "text": "<strong>Verrouillez des commissions à 12% à vie</strong>, gagnez en visibilité anticipée et contribuez à façonner une plateforme qui valorise votre travail."
     },
     "quality": {
       "title": "Qualité & Confiance",
