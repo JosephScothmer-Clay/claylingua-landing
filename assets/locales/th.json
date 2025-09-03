@@ -22,7 +22,7 @@
     "goal_value": "นักเรียน 50 คน • ติวเตอร์ 25 คน",
     "joined_label": "มีผู้เข้าร่วมแล้ว",
     "progress_label": "ความคืบหน้า",
-    "joined_text": "มีผู้เข้าร่วมแล้ว {joined} (เหลือ {remaining} ที่นั่ง)",
+    "joined_text": "มีผู้เข้าร่วมแล้ว {joined} (เหลือ {remaining} คน)",
     "progress_text": "บรรลุเป้าหมายแล้ว {percent}%"
   },
   "usps": {
