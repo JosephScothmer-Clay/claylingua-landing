@@ -1,15 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const roleButtons = document.querySelectorAll(".role-btn");
-  const roleField = document.getElementById("role-field");
-
-  roleButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      roleButtons.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      roleField.value = btn.dataset.role;
-    });
-  });
-
   (function () {
     const form   = document.getElementById('early-access-form');
     const btn    = form.querySelector('button[type="submit"]');
@@ -25,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         form.querySelector('#role-student').focus();
         return;
       }
+      const role = roleChecked.value;
 
       const originalText = btn.textContent;
       btn.disabled = true;
@@ -45,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         form.reset();
 
         gtag('event', 'signup', {
-          role: roleField.value || 'unknown',
+          role: role,
           form_type: 'early_access'
         });
 
