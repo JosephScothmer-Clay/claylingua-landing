@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const wrap   = document.getElementById('signup-container');
     const thanks = document.getElementById('thankyou-message');
     const errBox = document.getElementById('signup-error');
+    const langSelect = document.getElementById('lang-switch');
+    const langField  = document.getElementById('lang-field');
 
     form.addEventListener('submit', async function (e) {
       e.preventDefault();
@@ -15,6 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
       const role = roleChecked.value;
+
+      if (langField && langSelect) {
+        langField.value = langSelect.value;
+      }
 
       const originalText = btn.textContent;
       btn.disabled = true;
@@ -36,7 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         gtag('event', 'signup', {
           role: role,
-          form_type: 'early_access'
+          form_type: 'early_access',
+          language: langSelect ? langSelect.value : undefined
         });
 
       } catch (err) {

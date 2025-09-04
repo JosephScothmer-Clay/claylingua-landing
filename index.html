@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title data-i18n="meta.title"></title>
     <link rel="stylesheet" href="assets/css/styles.css?v=4" />
+    <script src="assets/js/i18n.js?v=5" defer></script>
     <script src="assets/js/signup.js?v=4"></script>
     <script src="assets/js/animations.js?v=2"></script>
     <script src="assets/js/menu.js?v=2"></script>
     <script src="assets/js/kpis.js?v=2"></script>
-    <script src="assets/js/i18n.js?v=5" defer></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY824YXTY7"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -260,10 +260,17 @@
                         <label for="role-tutor" class="segmented-btn" data-i18n="signup.role.tutor"></label>
                     </div>
                 </fieldset>
+
+                <div style="display:none;">
+                    <label for="website">Leave this blank</label>
+                    <input type="text" id="website" name="entry.1681052765">
+                </div>
+
                 <div class="field">
                     <label for="email" class="label" data-i18n="signup.email.label"></label>
                     <input type="email" id="email" name="entry.47806575" class="input" placeholder="you@example.com" required aria-describedby="email-hint">
                     <small id="email-hint" class="hint muted" data-i18n="signup.email.hint"></small>
+                    <input type="hidden" id="lang-field" name="entry.1152306408"/>
                 </div>
                 <button type="submit" class="btn primary block" data-i18n="signup.submit"></button>
                 <small class="muted microcopy" data-i18n="signup.privacy"></small>
