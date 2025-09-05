@@ -14,7 +14,7 @@
   "hero": {
     "badge": "Früher Zugang • Keine Zahlung oder Verpflichtung erforderlich",
     "heading": "Ein fairerer Marktplatz für Sprachlehrer:innen.",
-    "subheading": "Jeder Tutor bei ClayLingua ist geprüft und qualifiziert. Studenten erhalten 20 % Rabatt auf ihre ersten 10 Lektionen, und Tutoren zahlen nur 12 % Pauschalgebühren, wenn sie früh beitreten.",
+    "subheading": "Jeder Tutor bei ClayLingua ist geprüft und qualifiziert. Studenten erhalten 20 % Rabatt auf ihre ersten 3 Lektionen, und Tutoren zahlen nur 12 % Pauschalgebühren, wenn sie früh beitreten.",
     "cta": "Früh beitreten"
   },
   "kpi": {
@@ -29,7 +29,7 @@
     "heading": "Warum ClayLingua besser ist",
     "students": {
       "title": "Für Schüler:innen",
-      "point1": "<strong>20% Rabatt auf deine ersten 10 Stunden</strong> und früher Zugang zu Lehrkräften vor dem öffentlichen Start.",
+      "point1": "<strong>20% Rabatt auf deine ersten 3 Lektionen</strong> und früher Zugang zu Lehrkräften vor dem öffentlichen Start.",
       "point2": "<strong>Wähle deinen Lernpfad</strong> – geprüfte Prüfungsvorbereitung, karriereorientierte Kurse oder flexible Stunden, die auf deine Ziele zugeschnitten sind.",
       "point3": "<strong>Finde die passende Lehrkraft</strong> – alle sind nach Spezialisierungen gekennzeichnet, von Prüfungsvorbereitung (Ielts, Toefl, etc) und Karriere-Training bis hin zu Freizeitlernen.",
       "point4": "<strong>Verlässliche Qualität</strong> – jede ClayLingua-Lehrkraft wird auf Qualifikationen und Lehrerfahrung geprüft, bevor sie unterrichten darf.",
@@ -78,7 +78,7 @@
     "heading": "Warum früh beitreten?",
     "students": {
       "title": "Schüler:innen",
-      "text": "<strong>Sichere dir 20% Rabatt auf deine ersten 10 Stunden</strong> und erhalte bevorzugten Zugang zu geprüften Lehrkräften vor dem öffentlichen Start."
+      "text": "<strong>Sichere dir 20% Rabatt auf deine ersten 3 Lektionen</strong> und erhalte bevorzugten Zugang zu geprüften Lehrkräften vor dem öffentlichen Start."
     },
     "tutors": {
       "title": "Lehrkräfte",

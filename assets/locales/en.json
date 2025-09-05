@@ -14,7 +14,7 @@
   "hero": {
     "badge": "Early Access •  No Payment or Commitment Required",
     "heading": "A fairer marketplace for language tutors.",
-    "subheading": "Every tutor on ClayLingua is vetted and qualified. Students get 20% off their first 10 lessons, and tutors pay only 12% flat fees when they join early.",
+    "subheading": "Every tutor on ClayLingua is vetted and qualified. Students get 20% off their first 3 lessons, and tutors pay only 12% flat fees when they join early.",
     "cta": "Join Early"
   },
   "kpi": {
@@ -29,7 +29,7 @@
     "heading": "What Makes ClayLingua Better",
     "students": {
       "title": "For Students",
-      "point1": "<strong>Save 20% on your first 10 lessons</strong> and get early access to tutors before public launch.",
+      "point1": "<strong>Save 20% on your first 3 lessons</strong> and get early access to tutors before public launch.",
       "point2": "<strong>Choose a learning path</strong> for Ielts, Toefl, certified exam prep, career-focused courses, or flexible lessons designed around your goals.",
       "point3": "<strong>Get matched with the right tutor</strong> as every teacher is tagged by their specialties — from exam prep and career training to leisure learning.",
       "point4": "<strong>Be assured with your tutor</strong> as every ClayLingua tutor is screened for qualifications and teaching experience before they can teach.",
@@ -78,7 +78,7 @@
     "heading": "Why Join Early",
     "students": {
       "title": "Students",
-      "text": "<strong>Save 20% on your first 10 lessons</strong> and get priority access to vetted tutors before public launch."
+      "text": "<strong>Save 20% on your first 3 lessons</strong> and get priority access to vetted tutors before public launch."
     },
     "tutors": {
       "title": "Tutors",

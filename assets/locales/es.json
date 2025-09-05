@@ -14,7 +14,7 @@
   "hero": {
     "badge": "Acceso Anticipado • No se requiere pago ni compromiso",
     "heading": "Un mercado más justo para tutores de idiomas.",
-    "subheading": "Cada tutor en ClayLingua está verificado y cualificado. Los estudiantes obtienen un 20 % de descuento en sus primeras 10 clases, y los tutores solo pagan una tarifa plana del 12 % si se unen temprano.",
+    "subheading": "Cada tutor en ClayLingua está verificado y cualificado. Los estudiantes obtienen un 20 % de descuento en sus primeras 3 clases, y los tutores solo pagan una tarifa plana del 12 % si se unen temprano.",
     "cta": "Únete Temprano"
   },
   "kpi": {
@@ -29,7 +29,7 @@
     "heading": "Qué Hace Mejor a ClayLingua",
     "students": {
       "title": "Para Estudiantes",
-      "point1": "<strong>Ahorra 20% en tus primeras 10 clases</strong> y obtén acceso anticipado a tutores antes del lanzamiento público.",
+      "point1": "<strong>Ahorra 20% en tus primeras 3 clases</strong> y obtén acceso anticipado a tutores antes del lanzamiento público.",
       "point2": "<strong>Elige una ruta de aprendizaje</strong> para preparación certificada de exámenes (Ielts, Toefl etc), cursos enfocados en tu carrera, o clases flexibles diseñadas según tus objetivos.",
       "point3": "<strong>Encuentra al tutor adecuado</strong> ya que cada profesor está etiquetado por sus especialidades — desde preparación de exámenes y formación profesional hasta aprendizaje recreativo.",
       "point4": "<strong>Confía en tu tutor</strong> porque cada tutor de ClayLingua pasa por una verificación de cualificaciones y experiencia docente antes de poder enseñar.",
@@ -78,7 +78,7 @@
     "heading": "Por Qué Unirse Temprano",
     "students": {
       "title": "Estudiantes",
-      "text": "<strong>Ahorra 20% en tus primeras 10 clases</strong> y obtén acceso prioritario a tutores verificados antes del lanzamiento público."
+      "text": "<strong>Ahorra 20% en tus primeras 3 clases</strong> y obtén acceso prioritario a tutores verificados antes del lanzamiento público."
     },
     "tutors": {
       "title": "Tutores",

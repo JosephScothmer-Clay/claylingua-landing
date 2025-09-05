@@ -14,7 +14,7 @@
   "hero": {
     "badge": "Accès anticipé • Aucun paiement ni engagement requis",
     "heading": "Un marché plus équitable pour les professeurs de langues.",
-    "subheading": "Chaque tuteur sur ClayLingua est vérifié et qualifié. Les étudiants bénéficient de 20 % de réduction sur leurs 10 premières leçons, et les tuteurs ne paient que 12 % de frais fixes en s’inscrivant tôt.",
+    "subheading": "Chaque tuteur sur ClayLingua est vérifié et qualifié. Les étudiants bénéficient de 20 % de réduction sur leurs 3 premières leçons, et les tuteurs ne paient que 12 % de frais fixes en s’inscrivant tôt.",
     "cta": "Rejoindre dès maintenant"
   },
   "kpi": {
@@ -29,7 +29,7 @@
     "heading": "Pourquoi ClayLingua est meilleur",
     "students": {
       "title": "Pour les étudiants",
-      "point1": "<strong>Économisez 20% sur vos 10 premières leçons</strong> et accédez en avant-première aux professeurs avant le lancement public.",
+      "point1": "<strong>Économisez 20% sur vos 3 premières leçons</strong> et accédez en avant-première aux professeurs avant le lancement public.",
       "point2": "<strong>Choisissez un parcours d’apprentissage</strong> pour une préparation certifiée aux examens (Ielts, Toefl, etc), des cours axés sur la carrière ou des leçons flexibles conçues autour de vos objectifs.",
       "point3": "<strong>Trouvez le bon professeur</strong> car chaque enseignant est identifié par ses spécialités — préparation aux examens, formation professionnelle ou apprentissage de loisir.",
       "point4": "<strong>Ayez confiance en votre professeur</strong> puisque chaque enseignant de ClayLingua est vérifié pour ses qualifications et son expérience avant d’enseigner.",
@@ -78,7 +78,7 @@
     "heading": "Pourquoi rejoindre tôt",
     "students": {
       "title": "Étudiants",
-      "text": "<strong>Économisez 20% sur vos 10 premières leçons</strong> et accédez en priorité aux professeurs vérifiés avant le lancement public."
+      "text": "<strong>Économisez 20% sur vos 3 premières leçons</strong> et accédez en priorité aux professeurs vérifiés avant le lancement public."
     },
     "tutors": {
       "title": "Professeurs",
