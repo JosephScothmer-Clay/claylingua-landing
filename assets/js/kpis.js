@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const targetTutors = 25;
 
   const currentStudents = 2;
-  const currentTutors = 1;
+  const currentTutors = 2;
 
   const totalTarget = targetStudents + targetTutors;
   const totalJoined = currentStudents + currentTutors;
