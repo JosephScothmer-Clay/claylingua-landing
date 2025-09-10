@@ -38,6 +38,15 @@ async function loadTranslations(lang) {
         });
 
         updateKpis();
+
+        if (window.location.hash) {
+                    const el = document.querySelector(window.location.hash);
+                    if (el) {
+                        setTimeout(() => {
+                            el.scrollIntoView({ behavior: "smooth", block: "start" });
+                        }, 100);
+                    }
+                }
     } catch (err) {
         console.error("Translation load error:", err);
     }
