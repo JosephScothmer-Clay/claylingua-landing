@@ -55,8 +55,8 @@ async function loadTranslations(lang) {
 function updateKpis() {
     const targetStudents = 50;
     const targetTutors = 25;
-    const currentStudents = 1;
-    const currentTutors = 0;
+    const currentStudents = 2;
+    const currentTutors = 2;
 
     const totalTarget = targetStudents + targetTutors;
     const totalJoined = currentStudents + currentTutors;
