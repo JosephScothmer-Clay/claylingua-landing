@@ -22,6 +22,10 @@
   --trans-med: .25s ease;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 strong {
   color: var(--color-primary);
 }

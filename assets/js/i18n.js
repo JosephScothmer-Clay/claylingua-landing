@@ -56,7 +56,7 @@ function updateKpis() {
     const targetStudents = 50;
     const targetTutors = 25;
     const currentStudents = 2;
-    const currentTutors = 28;
+    const currentTutors = 42;
 
     const totalTarget = targetStudents + targetTutors;
     const totalJoined = currentStudents + currentTutors;
